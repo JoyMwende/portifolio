@@ -1,6 +1,9 @@
 body{
     background-color: white;
 }
+.main {
+    font-size: 20px;
+}
 .nav{
     background-color: white;
     display: flex;
@@ -16,13 +19,15 @@ body{
 }
 .nav a{
     text-decoration: none;
-    color: ;
 }
 .nav a:hover{
-    color: red;
+    color: blue;
 }
 .nav a:visited{
     color: purple;
+}
+.nav a:active {
+    color: rgb(25, 25, 190);
 }
 
 hr{
@@ -63,6 +68,10 @@ hr{
     display: flex;
     flex-direction: column;
     align-items: center;
+    background-color: skyblue;
+}
+.footer h2{
+    font-size: 30px;
 }
 .links{
     display: flex;
